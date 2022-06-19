@@ -19,5 +19,5 @@ jobs:
       run: sudo xcode-select -switch /Applications/Xcode_13.2.app
 
     - name: Build and test
-      run: xcodebuild \test \-project CountryList-home-assignment/RestCountries/RestCountries.xcodeproj -scheme RestCountries -destination 'platform=iOS Simulator,name=iPhone 13'
+      run: xcodebuild \test \-project RestCountries/RestCountries.xcodeproj -scheme RestCountries -destination 'platform=iOS Simulator,name=iPhone 13'
 
