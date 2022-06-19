@@ -1,32 +1,5 @@
 
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@M0TRIX
-M0TRIX /
-Wallapop
-Public
 
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-Wallapop/.github/workflows/ios.yml
-@M0TRIX
-M0TRIX Update ios.yml
-Latest commit 3a1c2ca 20 days ago
-History
-1 contributor
-20 lines (15 sloc) 435 Bytes
 name: CI
 
 on:
@@ -48,18 +21,3 @@ jobs:
     - name: Build and test
       run: xcodebuild \test \-project CountryList-home-assignment/RestCountries/RestCountries.xcodeproj -scheme RestCountries -destination 'platform=iOS Simulator,name=iPhone 13'
 
-    © 2022 GitHub, Inc.
-
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
-Loading complete
